@@ -2,7 +2,7 @@
 """
 Created on Thu Dec 17 00:29:55 2015
 
-Setup file for the biosigpy package.
+Setup file for the pysigview_cs module.
 
 Ing.,Mgr. (MSc.) Jan Cimbálník
 Biomedical engineering
@@ -60,7 +60,7 @@ def get_packages():
 
 
 setup_args = dict(name='pysigview_cs',
-                  version='0.1.0',
+                  version='0.1.1',
                   description='Pysigview client-server',
                   url='https://github.com/ICRC-BME/PySigView_cs',
                   author='Jan Cimbalnik',
@@ -68,7 +68,7 @@ setup_args = dict(name='pysigview_cs',
                   license='Apache 2.0',
                   packages=get_packages(),
                   platforms=['Linux', 'MacOS'],
-                  keywords='client server sigpy signals',
+                  keywords='client server pysigview signals',
                   install_requires=['numpy', 'pyzmq'],
                   zip_safe=False,
                   classifiers=['License :: OSI Approved :: MIT License',

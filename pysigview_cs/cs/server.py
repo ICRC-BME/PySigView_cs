@@ -26,9 +26,9 @@ import zmq
 import bcolz
 
 # Local imports
-from sigpy_cs.cs.directory_tree import DiretoryTree
-from sigpy_cs.file_formats.formats import (get_available_file_formats,
-                                           extension_evaluator)
+from pysigview_cs.cs.directory_tree import DiretoryTree
+from pysigview_cs.file_formats.formats import (get_available_file_formats,
+                                               extension_evaluator)
 
 
 class PysigviewServer:
