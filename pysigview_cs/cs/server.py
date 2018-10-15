@@ -56,7 +56,7 @@ class PysigviewServer:
         abs_path = '/'.join(os.getcwd().split('/')[:-1] + [path])
         print(abs_path)
         fh, ext = extension_evaluator(abs_path)
-        if not fh.check_password(password):
+        if not fh.password_check(password):
             self.socket.send_pyobj(False)
             return
         else:
