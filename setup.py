@@ -60,7 +60,7 @@ def get_packages():
 
 
 setup_args = dict(name='pysigview_cs',
-                  version='0.1.2',
+                  version='0.1.3',
                   description='Pysigview client-server',
                   url='https://github.com/ICRC-BME/PySigView_cs',
                   author='Jan Cimbalnik',
